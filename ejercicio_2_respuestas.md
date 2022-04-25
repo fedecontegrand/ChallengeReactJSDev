@@ -5,7 +5,7 @@ que recibe el resultado de las distintas acciones, y de acuerdo el tipo de accio
 trabajaria con switch). Tambien, debo generar la store usando dicha funcion reductora, y un middleware en caso de que sea necesario (por ej: redux-thunk), y tambien debo englobar los componentes que quieran que esten bajo ese contexto con el componente Provider de react-redux.
 
 2.2)
-Para agregar una nueva ruta, primero agregaria el paquete 'react-router'. Luego dentro del componente <Routes> de react-router,
+Para agregar una nueva ruta, primero agregaria el paquete 'react-router'. Luego dentro del componente Routes de react-router,
 definiria los distintos componentes a renderizar, de acuerdo al path actual. Por ejemplo :
 
     <Routes>
@@ -14,5 +14,5 @@ definiria los distintos componentes a renderizar, de acuerdo al path actual. Por
     <Route exact path="/about" element={<About />}>
     </Routes>
 
-Tambien, es importante que englobemos nuestra App en el componente <BrowserRouter> para poder hacer buen uso del ruteo definido
+Tambien, es importante que englobemos nuestra App en el componente BrowserRouter para poder hacer buen uso del ruteo definido
 en index.
