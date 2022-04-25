@@ -1,0 +1,64 @@
+.buttonBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    padding:10px
+}
+
+.chatsTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    row-gap: 10px;
+}
+
+.buttonBar > button {
+    border-radius: 50%;
+}
+
+.tableContainer{
+    position:relative;
+    background-color: whitesmoke;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+    min-height: 10rem;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.tableContainer > .table > table,.table{
+    margin-bottom: 0;
+}
+
+.callCol{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+
+.resultCol{
+    border-radius: 10px;   
+    font-weight: 500;
+}
+
+.yellow{
+    background-color:antiquewhite;
+}
+
+.green{
+    background-color: lightgreen;
+}
+
+.grey{
+    background-color: lightgray;
+}
+
+.red{
+    background-color:tomato;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
+

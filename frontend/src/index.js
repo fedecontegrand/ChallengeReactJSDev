@@ -1,13 +1,22 @@
-import "babel-polyfill";
-import "react-app-polyfill/ie11";
+import 'babel-polyfill'
+import 'react-app-polyfill/ie11'
 
-import ReactDOM from "react-dom";
-import * as serviceWorker from "./serviceWorker";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import * as serviceWorker from './serviceWorker'
+import View from './views/View'
+import { ContextProvider } from './Context/Context'
 
+import './index.css'
 
-ReactDOM.render(
-  "Welcome to Inceptia ReactJS Challenge",
-  document.getElementById("root")
-);
+const App = () => {
+	return (
+		<ContextProvider>
+			<View />
+		</ContextProvider>
+	)
+}
 
-serviceWorker.unregister();
+ReactDOM.render(<App />, document.getElementById('root'))
+
+serviceWorker.unregister()

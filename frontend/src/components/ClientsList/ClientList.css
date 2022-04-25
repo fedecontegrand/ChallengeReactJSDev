@@ -1,0 +1,30 @@
+.clientsTable{
+    background-color: whitesmoke;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    min-height: 10rem;
+    min-width: 10rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.clientRow{
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.noActive:hover{
+    background-color:azure;
+}
+
+.active{
+    font-weight: bold;
+    color:white;
+    background-color: darkslategray;
+}

@@ -1,0 +1,9 @@
+.viewContainer{
+    display: flex; 
+    justify-content: center;
+    column-gap: 1rem;
+    padding: 10px 20px;
+    background-color: aliceblue;
+    width: 100vw;
+    min-height: 100vh;
+}

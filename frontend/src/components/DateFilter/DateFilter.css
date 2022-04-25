@@ -1,0 +1,25 @@
+
+.dateFilterContainer{
+    display: flex;
+    column-gap: 1rem;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: fit-content;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.datePicker{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.datePicker > label{
+    margin:0
+}
+
+::-webkit-calendar-picker-indicator{
+    cursor: pointer;
+}
